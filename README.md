@@ -15,7 +15,7 @@ Ambiente destinado a acomodar tudo o que foi desenvolvido por mim, o que estou d
    * [Calculadora Básica](https://github.com/ericrodriguesfer/Academico/tree/master/calculadora_basica)
 
 3. Estrutura de Dados:
-   * [Códigos de Ordenação Básica](https://github.com/ericrodriguesfer/Academico/tree/master/estrutura_de_dados)
+   * [Sessão destinada a cadeira de Estrutura de Dados](https://github.com/ericrodriguesfer/Academico/tree/master/estrutura_de_dados)
   
 4. Recursividade:
    * [Algoritmos de Recursão e Definições Recursivas](https://github.com/ericrodriguesfer/Academico/tree/master/recursao)
