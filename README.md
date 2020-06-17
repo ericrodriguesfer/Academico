@@ -1,6 +1,6 @@
 # Academico
 
-Ambiente destinado a acomodar tudo o que foi desenvolvido por mim, o que estou desenvolvendo e o que irei desenvolver ainda na carreira acadêmica.
+Ambiente destinado a acomodar tudo o que foi desenvolvido por mim, o que estou desenvolvendo e o que irei desenvolver ainda na carreira acadêmica, sendo a mesma na Faculdade e/ou Cursos externos a ela.
 
 
 ## Sumário do repositório
@@ -25,3 +25,6 @@ Ambiente destinado a acomodar tudo o que foi desenvolvido por mim, o que estou d
 
 6. Aprendendo Python:
    * [Códigos da minha curva de aprendizagem em Python](https://github.com/ericrodriguesfer/Academico/tree/master/aprendendo_python)
+
+7. Desafios Santader Coders:
+   * [Códigos produzidos durante a semana de desafios do curso Santander Coders](https://github.com/ericrodriguesfer/Academico/tree/master/desafios-santander-coders)
