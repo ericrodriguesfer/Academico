@@ -1,0 +1,27 @@
+tarefa:
+	titulo
+	acao
+	realizada
+	
+usuario
+	login
+	senha
+	tarefas
+
+gerenciador
+	usuarios
+	=========
+	adicionarUsuario
+	removerUsuario
+	atualizarLogin
+	atualizarSenha
+	exibirUsuarios
+	efetuarLogin
+	efetuarLogout
+	adicionarTarefa
+	removerTarefa
+	editarTituloTarefa
+	editarAcaoTarefa
+	exibirTarefas
+	concluirTarefa
+		

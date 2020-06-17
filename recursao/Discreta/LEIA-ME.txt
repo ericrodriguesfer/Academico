@@ -1,0 +1,2 @@
+Aqui foi realizada a implementação de algoritmos com definições recursivas, em resposta 
+a resolução de questões da cadeira de Matemática Discreta

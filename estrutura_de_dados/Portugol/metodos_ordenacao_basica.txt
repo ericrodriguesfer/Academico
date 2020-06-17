@@ -1,0 +1,82 @@
+====================================================================================================
+==========================================BUBBLE SORT===============================================
+====================================================================================================
+função buble_sort(vetor[], tam)
+	para i de 0 ate |vetor| - 1 passo 1 faça
+		para j de 0 ate |vetor| - i - 1 passo 1 faça
+			se vetor[j] > vetor[j + 1] então
+				copia <- vetor[j]
+				vetor[j] <- vetor[j + 1]
+				vetor[j + 1] <- copia
+			fim se
+		fim para
+	fim para
+fim função
+
+====================================================================================================
+=======================================SELECTION SORT===============================================
+====================================================================================================
+
+função selection_sort(vetor[], tam)
+	para i de 0 ate |vetor| - 1 passo 1 faça
+		posicao_menor <- i
+		
+		para j de i + 1 ate |vetor| passo 1 faça
+			se vetor[j] > vetor[posicao_menor] então
+				posicao_menor <- j
+			fim se
+		fim para
+
+		copia <- vetor[j]
+		vetor[j] <- vetor[i]
+		vetor[i] <- copia
+	fim para
+fim função
+
+====================================================================================================
+=======================================INSERTION SORT===============================================
+====================================================================================================
+
+fução insertion_sort(vetor[], tam)
+	para i de 1 ate |vetor| passo 1 faça
+		menor_valor <- vetor[i]
+		j <- (i - 1)
+
+		enquanto((j >= 0) e (vetor[j] > menor_valor)) faça
+			vetor[j + 1] <- vetor[j]
+			j <- (j - 1)
+		fim enquanto
+		
+		vetor[j + 1] <- menor_valor
+	fim para
+fim função
+
+====================================================================================================
+============================================COMB SORT===============================================
+====================================================================================================
+
+função comb_sort(vetor[], tam)
+	intervalo <- tam
+	copiado <- 1
+ 
+	enquanto ((intervalo > 1) ou (copiado == 1)) faça
+		intervalo <- (intervalo * 10) / 13
+		
+		se intervalo == 9 ou intervalo == 10 então
+			intervalo <- 11
+	
+		se intervalo < 1 então
+			intervalo <- 1
+
+		copiado <- 0
+
+		para i de 0 e j de intervalo ate |vetor| passo 1 faça
+			se vetor[i] > vetor[j] então
+				copia <- vetor[j]
+				vetor[j] <- vetor[i]
+				vetor[i] <- copia
+				copiado <- 1
+			fim se
+		fim para
+	fim enquanto
+fim função
