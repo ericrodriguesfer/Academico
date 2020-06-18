@@ -21,7 +21,7 @@ Ambiente destinado a acomodar tudo o que foi desenvolvido por mim, o que estou d
    * [Algoritmos de Recursão e Definições Recursivas](https://github.com/ericrodriguesfer/Academico/tree/master/recursao)
 
 5. Códigos de Fundamentos de Programação:
-   * [Trabalho final de FUP - Jogo da Cobrinha](https://github.com/ericrodriguesfer/Academico/tree/master/trabalho_final_POO)
+   * [Trabalho final de FUP - Jogo da Cobrinha](https://github.com/ericrodriguesfer/Academico/tree/master/trabalho_fup)
 
 6. Aprendendo Python:
    * [Códigos da minha curva de aprendizagem em Python](https://github.com/ericrodriguesfer/Academico/tree/master/aprendendo_python)
