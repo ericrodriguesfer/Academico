@@ -23,13 +23,16 @@ int main(){
 
     //checagem de soma padrão em 0
     if(total_soma == 0){
+
         //busco o elemento 0 no vetor pai
         for(i = 0; i < tam;i++){
+
             //olhando se tem o elememto 0 no vetor pai
             if(vetor[i] == 0){
                 vetor_resultado[posicao] = vetor[i];
                 posicao++;
             }
+
             //nao tinha elemento 0 no vetor pai
             if(posicao == 0){
                 printf("Nao tem elementos no vetor que somados deem esse resultado\n");
@@ -37,10 +40,13 @@ int main(){
             }
         }
     }
+
     //se a soma é algo maior que zero
     else if(total_soma > 0){
+
         //checando de inviabilidade da soma de maneira unitaria
         for(i = 0; i < tam; i++){
+
             //checa se todos elementos do vetor pai é maior que a soma
             if(vetor[i] > total_soma){
                 printf("Nao tem elementos no vetor pai que formem essa soma\n");
@@ -59,11 +65,13 @@ int main(){
 
         //começa a popular o vetor filho pondo logo os maiores elemento do pai
         for(i = (tam - 1); i >= 0; i--){
+
             //se a soma do vetor filho é menor que a soma de k, continua pondo os maiores elementos do pai
             if(somar_elementos(vetor_resultado, posicao) < total_soma){
                 vetor_resultado[posicao] = vetor[i];
                 posicao++;
             }
+
             //se a soma dos elementos do filho passar, apaga o ultimo elemento do filho, pois foi ele que fez a soma estrapolar
             else if(somar_elementos(vetor_resultado, posicao) > total_soma){
                 vetor_resultado[posicao] = 0;
@@ -85,13 +93,16 @@ int main(){
 
         //se não a soma do filho ainda não deu o valor de k
         for(i = 0;i < (tam - 1); i++){
+
             //adiciona o menor valor do pai ao filho, se o a soma do filho é menor que k
             if(somar_elementos(vetor_resultado, posicao) < total_soma){
                 vetor_resultado[posicao] = vetor[i];
                 posicao++;
             }
+
             //se a soma do filho passa do k
             else if(somar_elementos(vetor_resultado, posicao) > total_soma){
+
                 //faz a direnca que existe entre o k e a soma do filho
                 int diferenca_acima = -(total_soma - somar_elementos(vetor_resultado, posicao));
 
@@ -99,6 +110,7 @@ int main(){
                 for(j = 0; j < posicao; j++){
                     if(vetor_resultado[j] == diferenca_acima){
                         vetor_resultado[j] = 0;
+
                         //arrasta os elementos seguintes ao apagado para manter a organização no filho
                         for(l = j; l < posicao; l++){
                             vetor_resultado[l] = vetor_resultado[l + 1];
@@ -108,6 +120,7 @@ int main(){
                     }
                 }
             }
+
             //checa se a soma do filho é igual a k e termina tudo
             else if(somar_elementos(vetor_resultado, posicao) == total_soma){
                 break;
