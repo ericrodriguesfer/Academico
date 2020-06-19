@@ -28,3 +28,6 @@ Ambiente destinado a acomodar tudo o que foi desenvolvido por mim, o que estou d
 
 7. Desafios Santader Coders:
    * [Códigos produzidos durante a semana de desafios do curso Santander Coders](https://github.com/ericrodriguesfer/Academico/tree/master/desafios-santander-coders)
+
+8. Desafios da Área de Computação:
+   * [Tentativa de solução a problemas computacionais](https://github.com/ericrodriguesfer/Academico/tree/master/computacao)
