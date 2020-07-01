@@ -220,9 +220,9 @@ public class Principal {
 				System.out.println("Essas são as nossas opções para Contato: ");
 				System.out.println("Vem ser um Cliente VIP!");
 				System.out.println("Ítalo Lima: ");
-				System.out.println("Telefone para Contato: (88) 99925-1547");
+				System.out.println("Telefone para Contato: (88) *****-**47");
 				System.out.println("Eric Rodrigues: ");
-				System.out.println("Telefone para Contato: (85) 99297-3508");
+				System.out.println("Telefone para Contato: (85) *****-**08");
 				System.out.println("Escolha o PME! ");
 				break;
 			case 4:
