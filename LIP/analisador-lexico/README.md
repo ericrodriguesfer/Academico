@@ -8,4 +8,4 @@ Essa foi a realização de um atividade prática, de construir a implementação
    * [Modelo em C](https://github.com/ericrodriguesfer/Academico/tree/master/LIP/analisador-lexico/modelo)
 
 2. Minha solução em JAVA:
-   * [Solução - AINDA NÃO TERMINADA](https://github.com/ericrodriguesfer/Academico/tree/master/LIP/analisador-lexico/minha-solucao)
+   * [Solução desenvolvida em JAVA](https://github.com/ericrodriguesfer/Academico/tree/master/LIP/analisador-lexico/minha-solucao)

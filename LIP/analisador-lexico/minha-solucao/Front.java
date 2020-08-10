@@ -30,7 +30,7 @@ public class Front {
 	final static int EOF = -1;
 
 	public static void addChar() {
-		if (lexLen <= 98) {
+		if (lexLen <= 100) {
 			lexeme[lexLen++] = nextChar;
 			lexeme[lexLen] = 0;
 		} else {
@@ -143,7 +143,15 @@ public class Front {
 			break;
 		}
 
-		System.out.println("Next token is: " + nextToken + ", Next lexeme is " + lexeme[0] + lexeme[1] + lexeme[2]);
+		if (nextToken != -1) {
+			System.out.println("Next token is: " + nextToken + ", Next lexeme is " + lexeme[0] + lexeme[1] + lexeme[2] + lexeme[3] + lexeme[4]);
+		} else {
+			System.out.println("Next token is: " + nextToken + ", Next lexeme is EOF");
+		}
+
+		for (int i = 0; i < 100; i++) {
+			lexeme[i] = ' ';
+		}
 
 		return nextToken;
 	}
