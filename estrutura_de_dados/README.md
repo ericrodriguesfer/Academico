@@ -6,3 +6,6 @@ Aqui estão dispostos os códigos desenvolvidos por mim, durante meu curso na ca
 
 1. Ordenação Básica:
    * [Algoritmos de ordanação básica](https://github.com/ericrodriguesfer/Academico/tree/master/estrutura_de_dados/ordenacao_basica)
+  
+2. Lista Sequencial Linear:
+   * [Implementação de uma lista sequencial linear - IMPLEMENTAÇÃO FEITA PARA PRÁTICA](https://github.com/ericrodriguesfer/Academico/tree/master/estrutura_de_dados/lista-sequencial-linear)
