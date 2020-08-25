@@ -4,5 +4,11 @@ Aqui estão dispostos os códigos desenvolvidos por mim, durante meu curso na ca
 
 # Sumário da sessão de LIP
 
-1. Ordenação Básica:
+1. Análise Léxica:
    * [Análise Léxica de instruções simplificadas](https://github.com/ericrodriguesfer/Academico/tree/master/LIP/analisador-lexico)
+
+2. Comparação entre Strings:
+   * [Comparação entre duas Strings](https://github.com/ericrodriguesfer/Academico/tree/master/LIP/comparador-strings)
+  
+3. Maior multiplo de um inteiro:
+   * [Maior valor possível de um inteiro](https://github.com/ericrodriguesfer/Academico/tree/master/LIP/maior-multiplo-inteiro)
