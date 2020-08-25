@@ -9,3 +9,6 @@ Aqui estão dispostos os códigos desenvolvidos por mim, durante meu curso na ca
   
 2. Lista Sequencial Linear:
    * [Implementação de uma lista sequencial linear - IMPLEMENTAÇÃO FEITA PARA PRÁTICA](https://github.com/ericrodriguesfer/Academico/tree/master/estrutura_de_dados/lista-sequencial-linear)
+
+3. Lista Sequencial Linear Ordenada:
+   * [Implementação de uma lista sequencial linear ordenada - IMPLEMENTAÇÃO FEITA PARA PRÁTICA](https://github.com/ericrodriguesfer/Academico/tree/master/estrutura_de_dados/lista-sequencial-linear-ordenada)
