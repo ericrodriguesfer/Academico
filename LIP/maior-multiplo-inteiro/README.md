@@ -8,4 +8,4 @@ Essa foi a realização de um atividade prática, de construir a implementação
    * [Solução desenvolvida em C](https://github.com/ericrodriguesfer/Academico/tree/master/LIP/maior-multiplo-inteiro/C/maior_multiplo_int.c)
 
 2. Solução feita em Java:
-   * [Solução desenvolvida em JAVA](https://github.com/ericrodriguesfer/Academico/tree/master/LIP/maior-multiplo-inteiro/Java/MairMultiploInt.java)
+   * [Solução desenvolvida em JAVA](https://github.com/ericrodriguesfer/Academico/tree/master/LIP/maior-multiplo-inteiro/Java/MaiorMultiploInt.java)
