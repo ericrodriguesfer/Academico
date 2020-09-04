@@ -24,3 +24,6 @@ Aqui estão dispostos os códigos desenvolvidos por mim, durante meu curso na ca
 
 7. Lista Encadeada Ordenada Conjunto:
    * [Implementação de uma lista encadeada Conjunto - IMPLEMENTAÇÃO FEITA PARA PRÁTICA](https://github.com/ericrodriguesfer/Academico/tree/master/estrutura_de_dados/lista-encadeada-conjunto)
+
+8. Práticas as respeito de ED:
+   * [Implementações práticas de teste de aprendizagem](https://github.com/ericrodriguesfer/Academico/tree/master/estrutura_de_dados/praticas)
