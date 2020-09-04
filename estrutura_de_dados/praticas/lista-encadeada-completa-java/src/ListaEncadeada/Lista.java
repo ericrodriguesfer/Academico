@@ -255,6 +255,18 @@ public class Lista {
 		return Integer.MAX_VALUE;
 	}
 	
+	public void ordenar () {
+		for (int i = 0; i < (this.tamanho - 1); i++) {
+			for (int j = 0; j < (this.tamanho - 1); j++) {
+				if (this.no(j + 1).getValor() < this.no(i).getValor()) {
+					int copia = this.no(j + 1).getValor();
+					this.no(j + 1).setValor(this.no(j).getValor());
+					this.no(j).setValor(copia);
+				}
+			}
+		}
+	}
+	
 	public void exibirLista () {
 		if (this.tamanho == 0) {
 			return;

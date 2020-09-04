@@ -23,7 +23,8 @@ public class Main {
 			System.out.println("8 - Checar elemento na lista");
 			System.out.println("9 - Exibir a lista");
 			System.out.println("10 - Exibir tamanho da lista");
-			System.out.println("11 - Encerrar");
+			System.out.println("11 - Ordenar a lista");
+			System.out.println("12 - Encerrar");
 			System.out.println("Digite a acao de deseja executar: ");
 			escolhaAcao = Integer.parseInt(ler.nextLine());
 			
@@ -139,6 +140,11 @@ public class Main {
 					
 				case 10:
 					System.out.println("Tamanho da lista: " + lista.tamanho());
+					
+					break;
+					
+				case 11:
+					lista.ordenar();
 					
 					break;
 					
