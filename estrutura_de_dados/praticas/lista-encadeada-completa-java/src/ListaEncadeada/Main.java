@@ -14,17 +14,18 @@ public class Main {
 		
 		while (menu) {
 			System.out.println("1 - Inserir no inicio da lista");
-			System.out.println("2 - Inserir no meio da lista");
-			System.out.println("3 - Inserir no fim da lista");
-			System.out.println("4 - Remover no inicio da lista");
-			System.out.println("5 - Remover no meio da lista");
-			System.out.println("6 - Remover no fim da lista");
-			System.out.println("7 - Remover elemento da lista");
-			System.out.println("8 - Checar elemento na lista");
-			System.out.println("9 - Exibir a lista");
-			System.out.println("10 - Exibir tamanho da lista");
-			System.out.println("11 - Ordenar a lista");
-			System.out.println("12 - Encerrar");
+			System.out.println("2 - Inserir no em na lista");
+			System.out.println("3 - Inserir no meio da lista");
+			System.out.println("4 - Inserir no fim da lista");
+			System.out.println("5 - Remover no inicio da lista");
+			System.out.println("6 - Remover no em na lista");
+			System.out.println("7 - Remover no fim da lista");
+			System.out.println("8 - Remover elemento da lista");
+			System.out.println("9 - Checar elemento na lista");
+			System.out.println("10 - Exibir a lista");
+			System.out.println("11 - Exibir tamanho da lista");
+			System.out.println("12 - Ordenar a lista");
+			System.out.println("13 - Encerrar");
 			System.out.println("Digite a acao de deseja executar: ");
 			escolhaAcao = Integer.parseInt(ler.nextLine());
 			
@@ -63,8 +64,20 @@ public class Main {
 					}
 					
 					break;
-					
+				
 				case 3:
+					System.out.println("Digite o número de deseja inserir: ");
+					valor = Integer.parseInt(ler.nextLine());
+					
+					if (lista.inserirNoMeio(valor)) {
+						System.out.println("SUCESSO: Valor inserido com sucesso!!!");
+					} else {
+						System.out.println("ERRO: Valor não foi inserido!!!");
+					}
+					
+					break;
+					
+				case 4:
 					System.out.println("Digite o número de deseja inserir: ");
 					valor = Integer.parseInt(ler.nextLine());
 					
@@ -76,7 +89,7 @@ public class Main {
 					
 					break;
 					
-				case 4:
+				case 5:
 					if (lista.removerNoInicio()) {
 						System.out.println("SUCESSO: Valor removido com sucesso!!!");
 					} else {
@@ -85,7 +98,7 @@ public class Main {
 					
 					break;
 					
-				case 5:
+				case 6:
 					System.out.println("======= INDICES ATUAIS DA LISTA =======");
 					lista.exibirIndices();
 					
@@ -100,7 +113,7 @@ public class Main {
 					
 					break;
 					
-				case 6:
+				case 7:
 					if (lista.removerNoFim()) {
 						System.out.println("SUCESSO: Valor removido com sucesso!!!");
 					} else {
@@ -109,7 +122,7 @@ public class Main {
 					
 					break;
 					
-				case 7:
+				case 8:
 					System.out.println("Digite o elemento que deseja remover: ");
 					valor = Integer.parseInt(ler.nextLine());
 					
@@ -121,7 +134,7 @@ public class Main {
 					
 					break;
 					
-				case 8:
+				case 9:
 					System.out.println("Digite o elemento que deseja buscar: ");
 					valor = Integer.parseInt(ler.nextLine());
 					
@@ -133,17 +146,17 @@ public class Main {
 					
 					break;
 					
-				case 9:
+				case 10:
 					lista.exibirLista();
 					
 					break;
 					
-				case 10:
+				case 11:
 					System.out.println("Tamanho da lista: " + lista.tamanho());
 					
 					break;
 					
-				case 11:
+				case 12:
 					lista.ordenar();
 					
 					break;

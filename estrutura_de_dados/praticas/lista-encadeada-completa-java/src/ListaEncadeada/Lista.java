@@ -53,6 +53,34 @@ public class Lista {
 		}
 	}
 	
+	public boolean inserirNoMeio (int valor) {
+		if (this.tamanho == 0) {
+			No novoNo = new No(valor, this.primeiro);
+			this.primeiro = novoNo;
+			this.tamanho++;
+			
+			return true;
+		} else {
+			if ((this.tamanho % 2) == 0) {
+				No noMeio = no(this.tamanho / 2);
+				No novoNo = new No(valor, noMeio.getProximo());
+				noMeio.setProximo(novoNo);
+				this.tamanho++;
+				
+				return true;
+			} else if ((this.tamanho % 2) == 1) {
+				No noMeio = no((this.tamanho / 2) + 1);
+				No novoNo = new No(valor, noMeio.getProximo());
+				noMeio.setProximo(novoNo);
+				this.tamanho++;
+				
+				return true;
+			}
+		}
+		
+		return false;
+	}
+	
 	public boolean inserirNoFim (int valor) {
 		if (this.tamanho == 0) {
 			No novoNo = new No(valor, this.primeiro);
