@@ -19,13 +19,14 @@ public class Main {
 			System.out.println("4 - Inserir no fim da lista");
 			System.out.println("5 - Remover no inicio da lista");
 			System.out.println("6 - Remover no em na lista");
-			System.out.println("7 - Remover no fim da lista");
-			System.out.println("8 - Remover elemento da lista");
-			System.out.println("9 - Checar elemento na lista");
-			System.out.println("10 - Exibir a lista");
-			System.out.println("11 - Exibir tamanho da lista");
-			System.out.println("12 - Ordenar a lista");
-			System.out.println("13 - Encerrar");
+			System.out.println("7 - Remover no meio da lista");
+			System.out.println("8 - Remover no fim da lista");
+			System.out.println("9 - Remover elemento da lista");
+			System.out.println("10 - Checar elemento na lista");
+			System.out.println("11 - Exibir a lista");
+			System.out.println("12 - Exibir tamanho da lista");
+			System.out.println("13 - Ordenar a lista");
+			System.out.println("14 - Encerrar");
 			System.out.println("Digite a acao de deseja executar: ");
 			escolhaAcao = Integer.parseInt(ler.nextLine());
 			
@@ -114,7 +115,7 @@ public class Main {
 					break;
 					
 				case 7:
-					if (lista.removerNoFim()) {
+					if (lista.removerNoMeio()) {
 						System.out.println("SUCESSO: Valor removido com sucesso!!!");
 					} else {
 						System.out.println("ERRO: Valor não foi removido!!!");
@@ -123,6 +124,15 @@ public class Main {
 					break;
 					
 				case 8:
+					if (lista.removerNoFim()) {
+						System.out.println("SUCESSO: Valor removido com sucesso!!!");
+					} else {
+						System.out.println("ERRO: Valor não foi removido!!!");
+					}
+					
+					break;
+					
+				case 9:
 					System.out.println("Digite o elemento que deseja remover: ");
 					valor = Integer.parseInt(ler.nextLine());
 					
@@ -134,7 +144,7 @@ public class Main {
 					
 					break;
 					
-				case 9:
+				case 10:
 					System.out.println("Digite o elemento que deseja buscar: ");
 					valor = Integer.parseInt(ler.nextLine());
 					
@@ -146,17 +156,17 @@ public class Main {
 					
 					break;
 					
-				case 10:
+				case 11:
 					lista.exibirLista();
 					
 					break;
 					
-				case 11:
+				case 12:
 					System.out.println("Tamanho da lista: " + lista.tamanho());
 					
 					break;
 					
-				case 12:
+				case 13:
 					lista.ordenar();
 					
 					break;

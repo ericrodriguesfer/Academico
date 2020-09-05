@@ -61,15 +61,15 @@ public class Lista {
 			
 			return true;
 		} else {
-			if ((this.tamanho % 2) == 0) {
-				No noMeio = no(this.tamanho / 2);
+			if (((this.tamanho - 1) % 2) == 0) {
+				No noMeio = no((this.tamanho - 1) / 2);
 				No novoNo = new No(valor, noMeio.getProximo());
 				noMeio.setProximo(novoNo);
 				this.tamanho++;
 				
 				return true;
-			} else if ((this.tamanho % 2) == 1) {
-				No noMeio = no((this.tamanho / 2) + 1);
+			} else if (((this.tamanho - 1) % 2) == 1) {
+				No noMeio = no(((this.tamanho - 1) / 2) + 1);
 				No novoNo = new No(valor, noMeio.getProximo());
 				noMeio.setProximo(novoNo);
 				this.tamanho++;
@@ -184,6 +184,30 @@ public class Lista {
 				return false;
 			}
 		}
+	}
+	
+	public boolean removerNoMeio () {
+		if (this.tamanho == 0) {
+			return false;
+		} else {
+			if (((this.tamanho - 1) % 2) == 0) {
+				No remover = no((this.tamanho - 1) / 2);
+				No anterior = no((this.tamanho - 2) / 2);
+				anterior.setProximo(remover.getProximo());
+				this.tamanho--;
+				
+				return true;
+			} else if (((this.tamanho - 1) % 2) == 1) {
+				No remover = no(((this.tamanho - 1) / 2) + 1);
+				No anterior = no(((this.tamanho - 2) / 2) + 1);
+				anterior.setProximo(remover.getProximo());
+				this.tamanho--;
+				
+				return true;
+			}
+		}
+		
+		return false;
 	}
 	
 	public boolean removerNoFim () {
