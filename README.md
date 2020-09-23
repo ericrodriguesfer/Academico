@@ -36,4 +36,4 @@ Ambiente destinado a acomodar tudo o que foi desenvolvido por mim, o que estou d
    * [Códigos feitos por mim em resolução a listas de exercicios da cadeira de LIP](https://github.com/ericrodriguesfer/Academico/tree/master/LIP)
 
 10. Sistemas Operacionais:
-   * [Códigos feitos por mim em resolução a listas de exercicios da cadeira de SO](https://github.com/ericrodriguesfer/Academico/tree/master/SO)
+    * [Códigos feitos por mim em resolução a listas de exercicios da cadeira de SO](https://github.com/ericrodriguesfer/Academico/tree/master/SO)
