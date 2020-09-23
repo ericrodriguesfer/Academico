@@ -12,3 +12,6 @@ Aqui estão dispostos os códigos desenvolvidos por mim, durante meu curso na ca
   
 3. Maior multiplo de um inteiro:
    * [Maior valor possível de um inteiro](https://github.com/ericrodriguesfer/Academico/tree/master/LIP/maior-multiplo-inteiro)
+
+4. Strucs, Uniões e Enumerações em C:
+   * [Implementação de mega structs de alunos em C](https://github.com/ericrodriguesfer/Academico/tree/master/LIP/mega-struc-c)
