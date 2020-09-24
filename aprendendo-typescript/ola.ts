@@ -29,8 +29,8 @@ function achei (nomes: Array<string>, busca: string): boolean {
     return achamos;
 }
 
-let nome: string = "eric";
-let nomes: Array<string> = ["eric", "tainara", "teste"];
+let nome: string = "teste";
+let nomes: Array<string> = ["teste", "joao", "irineu"];
 let numeros: Array<number> = [];
 let verdade: boolean = true;
 let decimal: number = 6;
@@ -80,7 +80,7 @@ class Nome {
 let nomesPessoas: Array<Nome> = [];
 
 let pessoa: Nome = new Nome();
-pessoa.setnome("eric");
+pessoa.setnome("teste2");
 console.log(pessoa.getnome());
 
 for (let i: number = 0; i < 5; i++) {
