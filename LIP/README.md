@@ -18,3 +18,6 @@ Aqui estão dispostos os códigos desenvolvidos por mim, durante meu curso na ca
 
 5. Funções de string em C:
    * [Implementação de funções de string em C](https://github.com/ericrodriguesfer/Academico/tree/master/LIP/strings)
+A
+6. Trabalho final da cadeira (NÃO CONCLUÍDO):
+   * [Implementação das questões de resolução do trabalho final](https://github.com/ericrodriguesfer/Academico/tree/master/LIP/trabalho-final)
