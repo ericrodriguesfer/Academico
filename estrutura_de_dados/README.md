@@ -32,5 +32,5 @@ Aqui estão dispostos os códigos desenvolvidos por mim, durante meu curso na ca
    * [Implementações do mini projeto 1](https://github.com/ericrodriguesfer/Academico/tree/master/estrutura_de_dados/mini-projeto-1)
 
 10. Mini projeto 2 (Trabalho avaliativo 2):
-   * [Implementações do mini projeto 2](https://github.com/ericrodriguesfer/Academico/tree/master/estrutura_de_dados/mini-projeto-2)
+    * [Implementações do mini projeto 2](https://github.com/ericrodriguesfer/Academico/tree/master/estrutura_de_dados/mini-projeto-2)
 
