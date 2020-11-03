@@ -37,3 +37,7 @@ Ambiente destinado a acomodar tudo o que foi desenvolvido por mim, o que estou d
 
 10. Sistemas Operacionais:
     * [Códigos feitos por mim em resolução a listas de exercicios da cadeira de SO](https://github.com/ericrodriguesfer/Academico/tree/master/SO)
+
+10. Laboratório do Eric (PROGRAMAÇÃO DE FINS ALEATÓRIOS):
+    * [Meu laboratório de códigos, testes e/ou coisas aleatórias](https://github.com/ericrodriguesfer/Academico/tree/master/laboratorio-do-eric)
+
