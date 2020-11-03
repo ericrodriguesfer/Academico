@@ -7,7 +7,7 @@ Aqui estão dispostos os códigos desenvolvidos por mim, códigos esses de fins 
 1. C++:
    * [Algoritmo de ordenação binária](https://github.com/ericrodriguesfer/Academico/tree/master/laboratorio-do-eric/C++/busca-binaria/busca_binaria.cpp)
 
-   * [Algoritmo de montagem de número digito a digito](https://github.com/ericrodriguesfer/Academico/tree/master/laboratorio-do-eric/C++/montar-numero/montar_numero.cpp)
+   * [Algoritmo de montagem de número digito a digito](https://github.com/ericrodriguesfer/Academico/tree/master/laboratorio-do-eric/C++/montar-numero/monta_numero.cpp)
 
 2. Javascript:
    * [Algoritmo de validação de CPF](https://github.com/ericrodriguesfer/Academico/tree/master/laboratorio-do-eric/Js/validacao-cpf)
