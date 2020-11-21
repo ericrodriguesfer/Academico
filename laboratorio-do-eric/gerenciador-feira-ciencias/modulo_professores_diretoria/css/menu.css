@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+*{
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body{
+  background-color: #DCDCDC;
+}
+.corpo{
+  margin: 0 auto;
+  padding: 0;
+  background-color: #DCDCDC;
+}
+.bar-inicio{
+  width: 100%;
+  height: 100px;
+  background-color: #228B22;
+  text-align: justify;
+}
+h1{
+  font-size: 50px;
+}
+.btn{
+  margin: 82px;
+  background-color: #228B22;
+  padding: 20px 80px 20px 80px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #000;
+}
+.btn:hover{
+  background-color: #6E7B8B;
+  transition: 0.5s;
+  color: #fff;
+}
+hr{
+  background-color: #000;
+  height: 5px;
+}
+.img-cabe{
+  margin-left: 5px;
+}
+.btn:hover{
+  background-color: #3CB371;
+  transition: 0.5s;
+}
+.btn-imprime{
+  margin: 2px;
+  background-color: #228B22;
+  padding: 5px 20px 5px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #000;
+}
+.btn-imprime:hover{
+  background-color: #3CB371;
+  transition: 0.5s;
+}
+.orien{
+  width: 200px;
+  height: 75px;
+  border-radius: 8px;
+  text-align: justify;
+}
+/*.l-e{
+  float: left;
+}
+.l-d{
+  float: right;
+}*/
