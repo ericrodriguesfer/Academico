@@ -32,7 +32,7 @@
         <br>
       </center>
     </div>
-   <script src="jquery-1.10.2.min.js" charset="utf-8"></script>
+   <script src="jquery-1.10.2.min.js" charset="utf-8"></script><!--Necessita adicionar a Jquery, por raiz ou via cdn-->
    <script src="menu.js" charset="utf-8"></script>
   </body>
 </html>

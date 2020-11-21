@@ -37,7 +37,7 @@
     <br>
     <br>
     <hr>
-    <script src="js/jquery-1.10.2.min.js" charset="utf-8"></script>
+    <script src="js/jquery-2.1.3.js" charset="utf-8"></script>
     <script src="js/menu.js" charset="utf-8"></script>
   </body>
 </html>
