@@ -21,5 +21,5 @@ Aqui estão dispostos os códigos desenvolvidos por mim, códigos esses de fins 
    * [Sistema Petiscaria da Estrada](https://github.com/ericrodriguesfer/Academico/tree/master/laboratorio-do-eric/petiscaria-estrada-estagio)
 
 5. Trabalho de avaliação para estágio (PROJETO NÃO CONCLUÍDO):
-   * [Sistema Petiscaria da Estrada](https://github.com/ericrodriguesfer/Academico/tree/master/laboratorio-do-eric/gerenciador-feira-ciencias)
+   * [Gerenciador Ceará Cientifico](https://github.com/ericrodriguesfer/Academico/tree/master/laboratorio-do-eric/gerenciador-feira-ciencias)
 
