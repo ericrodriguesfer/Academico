@@ -7,7 +7,7 @@ Ambiente destinado a acomodar tudo o que foi desenvolvido por mim, o que estou d
 
 1. Códigos de Programação Orientada a Objetos:
    * [Agenda Telefônica](https://github.com/ericrodriguesfer/Academico/tree/master/agenda_telefonica)
-   * [Gerenciador de Tarefas](https://github.com/ericrodriguesfer/Academico/tree/master/gerenciador__tarefas)
+   * [Gerenciador de Tarefas](https://github.com/ericrodriguesfer/Academico/tree/master/gerenciador_tarefas)
    * [Zoológico](https://github.com/ericrodriguesfer/Academico/tree/master/zoologico)
    * [Trabalho final de POO - PME](https://github.com/ericrodriguesfer/Academico/tree/master/trabalho_final_POO)
 
