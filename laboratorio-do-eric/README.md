@@ -17,9 +17,11 @@ Aqui estão dispostos os códigos desenvolvidos por mim, códigos esses de fins 
 3. C:
    * [Jogo da forca](https://github.com/ericrodriguesfer/Academico/tree/master/laboratorio-do-eric/C/jogo-da-forca/forca.c)
 
+<!--
 4. Trabalho do meu primeiro estágio (PROJETO NÃO CONCLUÍDO):
    * [Sistema Petiscaria da Estrada](https://github.com/ericrodriguesfer/Academico/tree/master/laboratorio-do-eric/petiscaria-estrada-estagio)
 
 5. Trabalho de avaliação para estágio (PROJETO NÃO CONCLUÍDO):
    * [Gerenciador Ceará Cientifico](https://github.com/ericrodriguesfer/Academico/tree/master/laboratorio-do-eric/gerenciador-feira-ciencias)
+-->
 
