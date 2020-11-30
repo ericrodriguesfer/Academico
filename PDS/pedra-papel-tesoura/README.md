@@ -5,7 +5,7 @@ Aqui está implementado por mim a minha resolução a esta atividade de revisão
 # Sumário da sessão de PDS:
 
 1. Descrição da atividade:
-   * [Documento pdf de descrição](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/pedra-papel-tesoura/descricao-trabalho/descriacao-trabalho.pdf)
+   * [Documento pdf de descrição](https://github.com/ericrodriguesfer/Academico/blob/master/PDS/pedra-papel-tesoura/descricao-trabalho/descricao-trabalho.pdf)
 
 2. Implementação:
    * [Implementação do jogo](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/pedra-papel-tesoura/src/br/com/eric/pds)
