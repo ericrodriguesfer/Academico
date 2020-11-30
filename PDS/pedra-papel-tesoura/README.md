@@ -7,6 +7,9 @@ Aqui está implementado por mim a minha resolução a esta atividade de revisão
 1. Descrição da atividade:
    * [Documento pdf de descrição](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/pedra-papel-tesoura/descricao-trabalho/descriacao-trabalho.pdf)
 
+2. Implementação:
+   * [Implementação do jogo](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/pedra-papel-tesoura/src/br/com/eric/pds)
+
 ## Diagrama de Classes do Jogo
 
 ![Diagrama de Classes](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/pedra-papel-tesoura/diagramas/Class.png)
