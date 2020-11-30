@@ -42,5 +42,5 @@ Ambiente destinado a acomodar tudo o que foi desenvolvido por mim, o que estou d
     * [Meu laboratório de códigos, testes e/ou coisas aleatórias](https://github.com/ericrodriguesfer/Academico/tree/master/laboratorio-do-eric)
 
 11. Projeto Detalhado de Software:
-    * [Códigos feitos por mim cadeira de PDS, resolução de atividades, listas e trabalhos](https://github.com/ericrodriguesfer/Academico/tree/master/PDS)
+    * [Códigos feitos por mim na cadeira de PDS, resolução de atividades, listas e trabalhos](https://github.com/ericrodriguesfer/Academico/tree/master/PDS)
 
