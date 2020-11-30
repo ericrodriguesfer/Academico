@@ -16,4 +16,4 @@ Aqui está implementado por mim a minha resolução a esta atividade de revisão
 
 ## Diagrama de Sequencia do Jogo
 
-![Diagrama de Classes](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/pedra-papel-tesoura/diagramas/Sequence.png)
+![Diagrama de Sequencia](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/pedra-papel-tesoura/diagramas/Sequence.png)
