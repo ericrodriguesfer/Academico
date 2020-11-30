@@ -9,7 +9,7 @@ Aqui está implementado por mim a minha resolução a esta atividade de revisão
 
 ## Diagrama de Classes do Jogo
 
-![Diagrama de Classes](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/pedra-papel-tesoura/diagramas/CLass.png)
+![Diagrama de Classes](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/pedra-papel-tesoura/diagramas/Class.png)
 
 ## Diagrama de Sequencia do Jogo
 
