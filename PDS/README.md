@@ -6,3 +6,6 @@ Aqui estão dispostos os códigos desenvolvidos por mim, durante meu curso na ca
 
 1. Jogo Pedra-Papel-Tesoura (Dividindo responsabilidades):
    * [pedra-papel-tesoura](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/pedra-papel-tesoura)
+
+2. Jogo da Forca (Dividindo responsabilidades):
+   * [forca](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/forca)
