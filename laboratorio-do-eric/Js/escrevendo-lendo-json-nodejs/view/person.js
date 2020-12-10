@@ -1,8 +1,9 @@
 const getLine = require("../utils/read");
 const Person = require("../model/person");
 const size = require("../utils/size");
+const addPerson = require("../controller/person");
 
-function readPerson () {
+function readPerson (data) {
     Person.id = Number(size() + 1);
 
     console.log("Digite o nome da pessoa: ");
@@ -20,7 +21,7 @@ function readPerson () {
     console.log("Digite o UF da pessoa: ");
     Person.UF = String(getLine());
 
-    return Person;
+    addPerson(data, Person);
 }
 
 module.exports = readPerson;

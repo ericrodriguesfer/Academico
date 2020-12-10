@@ -62,5 +62,21 @@
     "age": 20,
     "city": "Milha",
     "UF": "CE"
+  },
+  {
+    "id": 9,
+    "name": "Josefa",
+    "course": "Contabeis",
+    "age": 25,
+    "city": "Guaramiranga",
+    "UF": "CE"
+  },
+  {
+    "id": 10,
+    "name": "Paulo",
+    "course": "Quimica",
+    "age": 26,
+    "city": "Quixeramobim",
+    "UF": "CE"
   }
 ]
