@@ -14,6 +14,8 @@ Aqui estão dispostos os códigos desenvolvidos por mim, códigos esses de fins 
 
    * [Calcularoda básica feito com modulos](https://github.com/ericrodriguesfer/Academico/tree/master/laboratorio-do-eric/Js/calculadora-simples)
 
+   * [Sistema simplificado com base de dados em JSON](https://github.com/ericrodriguesfer/Academico/tree/master/laboratorio-do-eric/Js/escrevendo-lendo-json-nodejs)
+
 3. C:
    * [Jogo da forca](https://github.com/ericrodriguesfer/Academico/tree/master/laboratorio-do-eric/C/jogo-da-forca/forca.c)
 
