@@ -1,0 +1,42 @@
+<div class="body-page">
+    <div class="form-register">
+        <form action="/regiter" method="post">
+            <h2>Cadastre o usuário</h2>
+            <input type="text" name="name" id="name" placeholder="Digite o nome do usuário" required>
+            <input type="text" name="course" id="course" placeholder="Digite o curso do usuário" required>
+            <input type="number" name="age" id="age" placeholder="Digite a idade do usuário" required>
+            <input type="text" name="city" id="city" placeholder="Digite a cidade do usuário" required>
+            <input type="text" name="uf" id="uf" placeholder="Digite o UF do usuário" minlength="2" maxlength="2" required>
+            <input type="submit" name="send" id="send" class="btn-register" value="CADASTRAR">
+        </form>
+    </div>
+
+    <div class="body-register">
+        <div class="title-register">
+            <h2>Usuários cadastrados</h2>
+        </div>
+        <div class="boxes">
+            {{#each data}}
+                <div class="box-register">
+                    <p>Nome: {{this.name}}</p>
+                    <hr>
+                    <p>Curso: {{this.course}}</p>
+                    <hr>
+                    <p>Idade: {{this.age}}</p>
+                    <hr>
+                    <p>Cidade: {{this.city}}</p>
+                    <hr>
+                    <p>UF: {{this.UF}}</p>
+
+                    <a href="/delete/{{this.id}}">
+                        <input type="button" class="btn-delete" value="REMOVER">
+                    </a>
+                </div>
+            {{else}}
+        </div>
+            <div class="alert-register">
+                <h2>Não há usuários ainda...</h2>
+            </div>
+        {{/each}}
+    </div>
+</div>

@@ -1,82 +1,18 @@
 [
   {
     "id": 1,
-    "name": "Joao",
+    "name": "Mario",
     "course": "Matematica",
-    "age": 26,
-    "city": "Horizonte",
-    "UF": "CE"
+    "age": "49",
+    "city": "Sao Paulo",
+    "UF": "SP"
   },
   {
     "id": 2,
-    "name": "Jose",
-    "course": "Filosofia",
-    "age": 35,
-    "city": "Maracanau",
-    "UF": "CE"
-  },
-  {
-    "id": 3,
-    "name": "Julho",
-    "course": "Letras",
-    "age": 36,
-    "city": "Quiteria",
-    "UF": "CE"
-  },
-  {
-    "id": 4,
-    "name": "Getulio",
-    "course": "Moda",
-    "age": 29,
-    "city": "Pedra Branca",
-    "UF": "CE"
-  },
-  {
-    "id": 5,
-    "name": "Cezar",
-    "course": "Musica",
-    "age": 21,
-    "city": "Rio de Janeiro",
-    "UF": "RJ"
-  },
-  {
-    "id": 6,
-    "name": "Tulio",
-    "course": "Redes",
-    "age": 34,
-    "city": "Ibiquitinga",
-    "UF": "CE"
-  },
-  {
-    "id": 7,
-    "name": "Gerardo",
-    "course": "Fisica",
-    "age": 23,
-    "city": "Jaguaribe",
-    "UF": "CE"
-  },
-  {
-    "id": 8,
-    "name": "Miguel",
-    "course": "Pesca",
-    "age": 20,
-    "city": "Milha",
-    "UF": "CE"
-  },
-  {
-    "id": 9,
-    "name": "Josefa",
-    "course": "Contabeis",
-    "age": 25,
-    "city": "Guaramiranga",
-    "UF": "CE"
-  },
-  {
-    "id": 10,
-    "name": "Paulo",
-    "course": "Quimica",
-    "age": 26,
-    "city": "Quixeramobim",
-    "UF": "CE"
+    "name": "Joao",
+    "course": "Espanhol",
+    "age": "34",
+    "city": "Parana",
+    "UF": "PA"
   }
 ]
