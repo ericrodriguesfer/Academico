@@ -7,14 +7,13 @@
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     background-color: #f5f5f5;
 }
 
 .body-page {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .form-register form {
@@ -23,6 +22,10 @@ body {
     width: 350px;
     padding: 20px;
     border-radius: 10px;
+    
+    -webkit-box-shadow: 6px 6px 10px #999; 
+	-moz-box-shadow: 6px 6px 10px #999;
+    box-shadow: 6px 6px 10px #999;
 }
 
 .form-register h2 {
@@ -66,6 +69,10 @@ input {
     margin: 10px;
     padding: 20px;
     border-radius: 8px; 
+
+    -webkit-box-shadow: 6px 6px 10px #999; 
+	-moz-box-shadow: 6px 6px 10px #999;
+    box-shadow: 6px 6px 10px #999;
 }
 
 .boxes {
@@ -80,6 +87,10 @@ input {
     padding: 15px;
     border-radius: 8px;
     margin: 5px;
+
+    -webkit-box-shadow: 6px 6px 10px #999; 
+	-moz-box-shadow: 6px 6px 10px #999;
+    box-shadow: 6px 6px 10px #999;  
 } 
 
 .alert-register {
@@ -97,4 +108,108 @@ input {
 .btn-delete:hover {
     background-color: #c52813;
     cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+    .body-page {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .form-register {
+        margin-left: 45%;
+    }
+
+    .body-register{
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 1120px) {
+    .form-register {
+        margin-left: 40%;
+    }
+
+    .body-register{
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .form-register {
+        margin-left: 35%;
+    }
+
+    .body-register{
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 950px) {
+    .form-register {
+        margin-left: 30%;
+    }
+
+    .body-register{
+        margin: 2%;
+    }
+}
+
+@media (max-width: 920px) {
+    .body-register {    
+        width: 800px;
+    }
+    
+    .boxes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .box-register {
+        margin-left: 20%;
+    } 
+}
+
+@media (max-width: 840px) {
+    .body-register {    
+        width: 600px;
+    }
+
+    .box-register {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 630px) {
+    .body-register {    
+        width: 500px;
+    }
+
+    .boxes {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .form-register {
+        margin-left: 15%;
+    }
+
+    .box-register {
+        margin-left: 22%;
+    } 
+}
+
+@media (max-width: 530px) {
+    .body-register {    
+        width: 350px;
+        margin-left: 8%;
+    }
+
+    .box-register {
+        margin-left: 10%;
+    } 
+
+    .form-register {
+        margin-left: 5%;
+    }
 }

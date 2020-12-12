@@ -1,18 +1,26 @@
 [
   {
     "id": 1,
-    "name": "Mario",
-    "course": "Matematica",
-    "age": "49",
+    "name": "Maria",
+    "course": "Letras",
+    "age": "34",
     "city": "Sao Paulo",
     "UF": "SP"
   },
   {
     "id": 2,
     "name": "Joao",
-    "course": "Espanhol",
-    "age": "34",
-    "city": "Parana",
-    "UF": "PA"
+    "course": "Matematica",
+    "age": "28",
+    "city": "Marrocos",
+    "UF": "MA"
+  },
+  {
+    "id": 3,
+    "name": "Julio",
+    "course": "Filosofia",
+    "age": "24",
+    "city": "Horizonte",
+    "UF": "CE"
   }
 ]
