@@ -2,7 +2,7 @@
 
 Aqui está implementado por mim a minha resolução a esta atividade de revisão de Java e Orientação a Objetos, com o intuíto de implementarmos o jogo com a separação máxima de responsabilidade entre as entidades envolvidas no jogo.
 
-# Sumário da sessão de PDS:
+# Sumário da sessão do jogo:
 
 1. Descrição da atividade:
    * [Documento pdf de descrição](https://github.com/ericrodriguesfer/Academico/blob/master/PDS/pedra-papel-tesoura/descricao-trabalho/descricao-trabalho.pdf)

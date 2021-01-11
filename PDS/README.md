@@ -8,4 +8,10 @@ Aqui estão dispostos os códigos desenvolvidos por mim, durante meu curso na ca
    * [pedra-papel-tesoura](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/pedra-papel-tesoura)
 
 2. Jogo da Forca (Dividindo responsabilidades):
-   * [forca](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/forca)
+   * [Forca](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/forca)
+
+3. Chat Cliente-Servidor (Utilizando Socket e Dividindo responsabilidades):
+   * [Chat](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/chat-socket-servidor-cliente)
+
+4. Prática de GRASP:
+   * [Chat](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/pratica-grasp)
