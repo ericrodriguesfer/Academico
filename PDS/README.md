@@ -14,4 +14,4 @@ Aqui estão dispostos os códigos desenvolvidos por mim, durante meu curso na ca
    * [Chat](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/chat-socket-servidor-cliente)
 
 4. Prática de GRASP:
-   * [Chat](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/pratica-grasp)
+   * [Separação UI da Lógica](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/pratica-grasp)
