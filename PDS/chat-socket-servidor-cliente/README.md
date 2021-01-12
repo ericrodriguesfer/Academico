@@ -11,10 +11,10 @@ Aqui está implementado por mim a minha resolução a esta atividade de revisão
 2. Implementação:
    * [Implementação do jogo](https://github.com/ericrodriguesfer/Academico/tree/master/PDS/chat-socket-servidor-cliente/src)
 
-## Diagrama de Classes do Jogo
+## Diagrama de Classe do Servidor
 
 ![Diagrama de Classes do Servidor](https://github.com/ericrodriguesfer/Academico/blob/master/PDS/chat-socket-servidor-cliente/diagramas/Servidor.png)
 
-## Diagrama de Sequencia do Jogo
+## Diagrama de  Classe do Cliente
 
 ![Diagrama de Classes do Cliente](https://github.com/ericrodriguesfer/Academico/blob/master/PDS/chat-socket-servidor-cliente/diagramas/Cliente.png)
