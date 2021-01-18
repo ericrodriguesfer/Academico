@@ -44,3 +44,6 @@ Ambiente destinado a acomodar tudo o que foi desenvolvido por mim, o que estou d
 11. Projeto Detalhado de Software:
     * [Códigos feitos por mim na cadeira de PDS, resolução de atividades, listas e trabalhos](https://github.com/ericrodriguesfer/Academico/tree/master/PDS)
 
+12. Laboratório de Estudo em JavaFX:
+    * [Códigos feitos por mim na minha curva de aprendizado em JavaFX](https://github.com/ericrodriguesfer/Academico/tree/master/estudo-javafx)
+

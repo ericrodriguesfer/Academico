@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.eric.calculadora.controller.MainController">
+    <stylesheets>
+        <URL value="@/br/com/eric/calculadora/styles/main.css" />
+    </stylesheets>
+   <children>
+      <Pane layoutX="-1.0" prefHeight="400.0" prefWidth="600.0" styleClass="pane" stylesheets="@../styles/main.css">
+         <children>
+            <Label layoutX="163.0" layoutY="14.0" styleClass="title-calc" stylesheets="@../styles/main.css" text="CalculadoraFX" />
+            <Label layoutX="20.0" layoutY="92.0" styleClass="title-inputs" stylesheets="@../styles/main.css" text="Número 1°:" />
+            <TextField fx:id="txtNum01" layoutX="20.0" layoutY="131.0" prefHeight="25.0" prefWidth="166.0" promptText="Digite o primeiro valor..." styleClass="config-input" stylesheets="@../styles/main.css">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <TextField fx:id="txtNum02" layoutX="387.0" layoutY="131.0" prefHeight="25.0" prefWidth="200.0" promptText="Digite o segundo valor..." styleClass="config-input" stylesheets="@../styles/main.css">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <Label layoutX="486.0" layoutY="92.0" prefHeight="30.0" prefWidth="200.0" styleClass="title-inputs" stylesheets="@../styles/main.css" text="Número 2°:" />
+            <Label layoutX="234.0" layoutY="92.0" styleClass="title-inputs" stylesheets="@../styles/main.css" text="Operação:" />
+            <Button fx:id="btnCalc" layoutX="20.0" layoutY="163.0" mnemonicParsing="false" onAction="#calculator" prefHeight="66.0" prefWidth="568.0" styleClass="btn-calc" stylesheets="@../styles/main.css" text="CALCULAR" />
+            <TextField fx:id="txtResult" editable="false" layoutX="20.0" layoutY="354.0" prefHeight="25.0" prefWidth="568.0" promptText="Resultado da sua operação..." styleClass="config-input" stylesheets="@../styles/main.css">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <Label layoutX="17.0" layoutY="324.0" styleClass="title-inputs" stylesheets="@../styles/main.css" text="Resultado da operação:" />
+            <ComboBox fx:id="txtOperaion" layoutX="213.0" layoutY="131.0" prefWidth="150.0" promptText="Selecione a operação">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ComboBox>
+            <Button fx:id="btnReset" layoutX="20.0" layoutY="243.0" mnemonicParsing="false" onAction="#reset" prefHeight="66.0" prefWidth="568.0" styleClass="btn-calc" stylesheets="@../styles/main.css" text="LIMPAR" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

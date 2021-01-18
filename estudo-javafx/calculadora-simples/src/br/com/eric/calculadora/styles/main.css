@@ -1,0 +1,30 @@
+.pane {
+    -fx-background-color: #f5f5f5;
+}
+
+.title-calc {
+    -fx-font-size: 45px;
+    -fx-font-style: Bold;
+}
+
+.title-inputs {
+    -fx-font-size: 20px;
+    -fx-font-style: Bold;
+}
+
+.config-input {
+    -fx-padding: 4px;
+    -fx-alignment: center;
+}
+
+.btn-calc {
+    -fx-background-color: #A9A9A9;
+    -fx-font-size: 35px;
+    -fx-border-radius: 10px;
+}
+
+.btn-calc:hover {
+    -fx-background-color: #C0C0C0;
+    -fx-cursor: hand;
+}
+
