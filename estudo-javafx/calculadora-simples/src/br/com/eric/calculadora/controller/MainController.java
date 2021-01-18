@@ -127,13 +127,13 @@ public class MainController implements Initializable {
         this.txtResult.setText("");
         this.txtOperaion.setValue(null);
 
-        this.num01Valid = false;
-        this.num02Valid = false;
-        this.num01 = null;
-        this.num02 = null;
-        this.num01Calc = 0.0;
-        this.num02Calc = 0.0;
-        this.result = 0.0;
+        this.setNum01Valid(false);
+        this.setNum02Valid(false);
+        this.setNum01(null);
+        this.setNum02(null);
+        this.setNum01Calc(0.0);
+        this.setNum02Calc(0.0);
+        this.setResult(0.0);
     }
 
     private void populateCategorys() {
