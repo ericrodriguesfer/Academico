@@ -7,3 +7,6 @@ Aqui estão dispostos os códigos desenvolvidos por mim, códigos esses de fins 
 1. Calculadora Simples:
    * [Calculadora](https://github.com/ericrodriguesfer/Academico/tree/master/estudo-javafx/calculadora-simples)
 
+2. CRUD de usuários:
+   * [CRUD](https://github.com/ericrodriguesfer/Academico/tree/master/estudo-javafx/crud-usuarios)
+
