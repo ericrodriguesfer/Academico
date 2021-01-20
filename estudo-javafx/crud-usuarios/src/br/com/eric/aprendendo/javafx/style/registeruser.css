@@ -1,0 +1,36 @@
+.pane-background {
+    -fx-background-color: #4169E1;
+}
+
+.pane-form, .pane-table{
+    -fx-background-color: #f5f5f5;
+    -fx-background-radius: 6px;
+}
+
+.label-system {
+    -fx-font-size: 18px;
+}
+
+.label-user-register-edit {
+    -fx-font-size: 15px;
+}
+
+.label-form {
+    -fx-font-size: 12px;
+}
+
+.inputs-form {
+    -fx-padding: 6px;
+}
+
+.btn-form {
+    -fx-background-color: #4169E1;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 6px;
+    -fx-font-weight: bold;
+}
+
+.btn-form:hover {
+    -fx-opacity: 0.9;
+    -fx-cursor: hand;
+}
