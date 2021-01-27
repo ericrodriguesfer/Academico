@@ -16,3 +16,6 @@ Aqui estão dispostos os códigos desenvolvidos por mim, códigos esses de fins 
 2. CRUD de usuários:
    * [CRUD](https://github.com/ericrodriguesfer/Academico/tree/master/estudo-projeto-integrado/crud-usuarios-javafx)
 
+3. Simulação de sistema bancário com JPA e MySQL:
+   * [SISTEMA BANCÁRIO](https://github.com/ericrodriguesfer/Academico/tree/master/estudo-projeto-integrado/sistema-bancario-jpa-orm)
+
