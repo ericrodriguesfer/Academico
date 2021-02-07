@@ -1,33 +1,16 @@
 import { Router } from 'express';
 import { celebrate, Segments, Joi } from 'celebrate';
-import peopleController from '../controller/peopleController';
 import taskController from '../controller/taskController';
 
-const routes = Router();
+const routesTasks = Router();
 
-routes.get("/", peopleController.index);
-
-routes.post("/register/people", celebrate({
-    [Segments.BODY] : Joi.object().keys({
-       name: Joi.string().required().min(3),
-       email: Joi.string().required().email(),
-       age: Joi.number().required().min(1) 
-    }),
-}), peopleController.create);
-
-routes.delete("/delete/people/:id", celebrate({
-    [Segments.PARAMS] : Joi.object({
-        id: Joi.number().required()
-    }),
-}), peopleController.delete);
-
-routes.get("/list/people/taks", celebrate({
+routesTasks.get("/list/people/taks", celebrate({
     [Segments.HEADERS] : Joi.object({
         identification: Joi.string().required()
     }).unknown(),
 }), taskController.index);
 
-routes.post("/register/people/taks", celebrate({
+routesTasks.post("/register/people/taks", celebrate({
     [Segments.HEADERS] : Joi.object({
         identification: Joi.string().required()
     }).unknown(),
@@ -37,7 +20,20 @@ routes.post("/register/people/taks", celebrate({
     }),
 }), taskController.create);
 
-routes.delete("/delete/people/task/:id", celebrate({
+routesTasks.put("/update/task/:id", celebrate({
+    [Segments.HEADERS] : Joi.object({
+        identification: Joi.string().required(),
+    }).unknown(),
+    [Segments.PARAMS] : Joi.object({
+        id: Joi.number().required(),
+    }),
+    [Segments.BODY]: Joi.object().keys({
+        name: Joi.string().required(),
+        action: Joi.string().required().min(10)
+    }),
+}), taskController.update);
+
+routesTasks.delete("/delete/people/task/:id", celebrate({
     [Segments.HEADERS] : Joi.object({
         identification: Joi.string().required()
     }).unknown(),
@@ -46,10 +42,10 @@ routes.delete("/delete/people/task/:id", celebrate({
     }),
 }), taskController.delete);
 
-routes.delete("/clear/people/task/", celebrate({
+routesTasks.delete("/clear/people/task/", celebrate({
     [Segments.HEADERS] : Joi.object({
         identification: Joi.string().required()
     }).unknown(),
 }), taskController.clearAll);
 
-export default routes;
+export default routesTasks;

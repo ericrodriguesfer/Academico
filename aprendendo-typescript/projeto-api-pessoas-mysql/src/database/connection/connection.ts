@@ -1,17 +1,6 @@
 import knex from 'knex';
+import dbConfig from '../config/knexfile';
 
-const connection = knex({
-    client: 'mysql',
-    connection: {
-        host: 'localhost',
-        user: 'root',
-        password: '',
-        database: 'people-tasks'
-    },
-    migrations: {
-        directory: './src/database/migrations'
-    },
-    useNullAsDefault: true
-});
+const connection = knex(dbConfig.development);
 
 export default connection;
