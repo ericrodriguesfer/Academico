@@ -1,8 +1,11 @@
 import { Router } from 'express';
 import { celebrate, Segments, Joi } from 'celebrate';
 import taskController from '../controller/taskController';
+import { auth } from '../middlewares/OAuth';
 
 const routesTasks = Router();
+
+routesTasks.use(auth);
 
 routesTasks.get("/list/people/taks", celebrate({
     [Segments.HEADERS] : Joi.object({

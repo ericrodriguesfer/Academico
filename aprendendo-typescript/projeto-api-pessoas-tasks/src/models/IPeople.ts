@@ -1,4 +1,4 @@
-export interface People {
+export interface IPeople {
     identification: string,
     name: string,
     email: string,

@@ -1,4 +1,4 @@
-export interface Task {
+export interface ITask {
     name: string,
     action: string,
     people_identification: string

@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import connection from '../database/connection/connection';
 import existsController from './existsController';
-import { Task } from '../models/task';
+import { ITask } from '../models/ITtask';
 
 export default {
     async index(_require: Request, _response: Response): Promise<Response> {
@@ -13,7 +13,7 @@ export default {
             return _response.status(404).json( {message: "Não foi achado este usuário!"} );
         }
 
-        const tasks: Array<Task> = await connection('tasks').where('people_identification', identification).select('*');
+        const tasks: Array<ITask> = await connection('tasks').where('people_identification', identification).select('*').orderBy('id');
     
         return _response.status(201).json(tasks);
     },
@@ -25,7 +25,7 @@ export default {
             return _response.status(404).json( {message: "Não foi achado este usuário!"} );
         }
 
-        const newTask: Task = {
+        const newTask: ITask = {
             name: _require.body.name,
             action: _require.body.action,
             people_identification: String(_require.headers.identification)
@@ -46,7 +46,7 @@ export default {
             return _response.status(404).json( {message: "Não foi achado este usuário!"} );
         }
 
-        const task: Task = await connection('tasks').where('people_identification', identification).where('id', id_update).select('*').first();
+        const task: ITask = await connection('tasks').where('people_identification', identification).where('id', id_update).select('*').first();
 
         if (!task) {
             return _response.status(404).json( {message: "Não foi achada a tarefa deste usuário para atualização!"} );
@@ -75,7 +75,7 @@ export default {
             return _response.status(404).json( {message: "Não foi achado este usuário!"} );
         }
 
-        const task: Task = await connection('tasks').where('people_identification', identification).where('id', id_delete).select('*').first();
+        const task: ITask = await connection('tasks').where('people_identification', identification).where('id', id_delete).select('*').first();
 
         if (!task) {
             return _response.status(404).json( {message: "Não foi achada a tarefa deste usuário para deleção!"} );
@@ -95,7 +95,7 @@ export default {
             return _response.status(404).json( {message: "Não foi achado este usuário!"} );
         }
 
-        const taks: Array<Task> = await connection('tasks').where('people_identification', identification);
+        const taks: Array<ITask> = await connection('tasks').where('people_identification', identification);
 
         if (taks.length == 0) {
             return _response.status(404).json( {message: "Este usuário não possui tarefas para deleção!"} );

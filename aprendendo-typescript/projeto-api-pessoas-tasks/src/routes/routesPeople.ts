@@ -1,10 +1,9 @@
 import { Router } from 'express';
 import { celebrate, Segments, Joi } from 'celebrate';
 import peopleController from '../controller/peopleController';
+import { auth } from '../middlewares/OAuth';
 
 const routesPeople = Router();
-
-routesPeople.get("/", peopleController.index);
 
 routesPeople.post("/register/people", celebrate({
     [Segments.BODY] : Joi.object().keys({
@@ -14,6 +13,17 @@ routesPeople.post("/register/people", celebrate({
         age: Joi.number().required().min(1) 
     }),
 }), peopleController.create);
+
+routesPeople.post("/login", celebrate({
+    [Segments.BODY] : Joi.object().keys({
+        email: Joi.string().required(),
+        pass: Joi.string().required()
+    }),
+}), peopleController.login);
+
+routesPeople.use(auth);
+
+routesPeople.get("/", peopleController.index);
 
 routesPeople.put("/update/people/:id", celebrate({
     [Segments.PARAMS] : Joi.object({
@@ -31,5 +41,7 @@ routesPeople.delete("/delete/people/:id", celebrate({
          id: Joi.number().required()
     }),
 }), peopleController.delete);
+
+routesPeople.get("/logout", peopleController.logout);
 
 export default routesPeople;  
