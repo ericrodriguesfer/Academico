@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import { celebrate, Segments, Joi } from 'celebrate';
 import peopleController from '../controller/peopleController';
-import { auth } from '../middlewares/OAuth';
+import auth from '../middlewares/OAuth';
 
 const routesPeople = Router();
 
@@ -21,7 +21,7 @@ routesPeople.post("/login", celebrate({
     }),
 }), peopleController.login);
 
-routesPeople.use(auth);
+routesPeople.use(auth.auth);
 
 routesPeople.get("/", peopleController.index);
 

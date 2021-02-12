@@ -43,19 +43,18 @@ export default {
     },
 
     async logout(_require: Request, _response: Response): Promise<Response> {
-        const authHeader: any = _require.headers.authorization;
+        const token: string = String(storage.getItem("token"));
 
-        if (!authHeader) {
+        if (!token) {
             return _response.status(404).json( {message: "Você já está deslogado!"} );
         }
 
-        const token = authHeader.split(" ");
-
-        if (token[1] == storage.getItem("token")) {
+        if (jwt.verify(token, String(secretToken.index))) {
             storage.clear();
             return _response.status(201).json( {message: "Deslogado com sucesso!"} );
         }
 
+        storage.clear();
         return _response.status(201).json( {message: "Erro ao efetuar seu logout!"} );
     },
 

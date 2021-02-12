@@ -1,22 +1,24 @@
 import { Request, Response, NextFunction } from 'express';
+import jwt from 'jsonwebtoken';
 import { storage } from '../config/storage';
+import secret from '../config/secretToken';
 
-export const auth = async (_require: Request, _response: Response, _next: NextFunction) => {
-    const authHeader: any = _require.headers.authorization;
+export default {
+    async auth(_require: Request, _response: Response, _next: NextFunction): Promise<any>{
+        const token: string = String(storage.getItem("token"));
 
-    if (!authHeader) {
-        _response.status(404).json( {message: "Execute seu login para obter acesso!"} );
-    }
-    
-    const token = authHeader.split(" ");
-
-    try {
-        if (token[1] == storage.getItem("token")) {
-            _next();
-        } else {
-            _response.status(404).json( {message: "Erro com seu login! Tente novamente!"} );
+        if (!token) {
+            return _response.status(404).json( {message: "Execute seu login para obter acesso!"} );
         }
-    } catch(error) {
-        _response.status(404).json( {message: "Execute seu login para obter acesso!"} );
-    };
+
+        try {
+            if (jwt.verify(token, String(secret.index))) {
+                _next();
+            } else {
+                return _response.status(404).json( {message: "Erro com seu login! Tente novamente!"} );
+            }
+        } catch(error) {
+            return _response.status(404).json( {message: "Execute seu login para obter acesso!"} );
+        };
+    }
 }
